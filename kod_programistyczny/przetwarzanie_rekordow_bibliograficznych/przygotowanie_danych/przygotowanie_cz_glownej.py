@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Oct 27 18:40:41 2024
-
-@author: patry
-"""
-
 import pandas as pd
 import numpy as np
 import re
@@ -44,44 +38,30 @@ def extract_and_validate_order_numbers(df: pd.DataFrame) -> pd.DataFrame:
 
 def merge_rows_based_on_order_number(df):
     df['OrderNumber'].fillna(method='ffill', inplace=True)
-
-    # Agregacja kolumny 'Record'
     record_agg = df.groupby('OrderNumber')['Record'].apply(lambda x: ' '.join(x.astype(str)))
-
-    # Agregacja pozostałych kolumn z zachowaniem wartości niebędących NaN (jeśli to możliwe)
     other_cols_agg = df.groupby('OrderNumber').agg(lambda x: x.dropna().unique().tolist())
-
-    # Połączenie wyników
     grouped_df = pd.DataFrame(record_agg).join(other_cols_agg.drop(columns=['Record']))
-
-    # Przekształcenie list na pojedyncze wartości tam, gdzie to możliwe
     for col in grouped_df.columns:
         grouped_df[col] = grouped_df[col].apply(lambda x: x[0] if len(x) == 1 else x)
 
     return grouped_df.reset_index()
 
 def split_rows_by_patterns(df, column, patterns):
-    # Kompilacja wzorców w jeden regex
     pattern = '|'.join(patterns)
 
     new_rows = []
     for index, row in df.iterrows():
-        # Dzielenie tekstu z kolumny na podstawie wzorców
         parts = re.split(pattern, row[column])
         for i, part in enumerate(parts):
             new_row = {}
             for col in df.columns:
-                # Dla pierwszego podzielonego fragmentu zachowaj oryginalne wartości, dla reszty ustaw NaN
                 new_row[col] = row[col] if i == 0 else np.nan
-            new_row[column] = part  # Aktualizacja kolumny, według której dzielimy, na podzielony fragment
+            new_row[column] = part  
             new_rows.append(new_row)
-
-    # Tworzenie nowego DataFrame na podstawie listy nowych wierszy
     new_df = pd.DataFrame(new_rows)
     return new_df
 
 def process_prefixes(df: pd.DataFrame) -> pd.DataFrame:
-    # Dodajemy nowe kolumny
     df['Wiersz'] = False
     df['Proza'] = False
 
@@ -92,7 +72,6 @@ def process_prefixes(df: pd.DataFrame) -> pd.DataFrame:
             return ('Proza', record[2:].strip())
         return (None, record)
 
-    # Zastosowanie funkcji do każdej wartości w kolumnie 'Record'
     df[['Prefix', 'Record']] = df['Record'].apply(lambda x: pd.Series(check_prefix(x)))
 
     if 'Prefix' in df.columns:
@@ -155,5 +134,4 @@ def process_multiple_files(directory_path):
             df_processed.to_csv(output_csv_path, index=False)
             print(f'Przetworzono: {filename} i zapisano wynik do: {output_csv_path}')
 
-# Przetwarzanie wielu plików
 process_multiple_files()
