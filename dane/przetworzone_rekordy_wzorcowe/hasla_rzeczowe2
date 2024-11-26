@@ -1,0 +1,2834 @@
+@prefix rdfs: <http:/www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http:/www.w3.org/2004/02/skos/core#> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Dywan-literatura> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Dywan (literatura)"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Aborygenow_Australii> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Aborygenów Australii"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Gwinei_Bissau> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Gwinei Bissau"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Gwinei_Rownikowej> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Gwinei Równikowej"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_LGBT> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura LGBT"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Liechtensteinu> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Liechtensteinu"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Majow> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q25408006> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Majów"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Melanezji> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Melanezji"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Oceanii> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Oceanii"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Prusow> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Prusów"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Republiki_Zielonego_Przyladka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Republiki Zielonego Przylądka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Saukow> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Sauków"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Szorow> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Szorów"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Wybrzeza_Kosci_Sloniowej> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Wybrzeża Kości Słoniowej"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Wysp_Swietego_Tomasza_i_Ksiazecej> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Wysp Świętego Tomasza i Książęcej"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Zjednoczonych_Emiratow_Arabskich> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura Zjednoczonych Emiratów Arabskich"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_abazynska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura abazyńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_abchaska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura abchaska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_adabowa> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura adabowa"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_adygejska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura adygejska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_afganska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura afgańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_afrikaans> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura afrikaans"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_afroamerykanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85004342>,
+        <http:/www.wikidata.org/entity/Q388170>,
+        <https:/finto.fi/yso/en/page/9797> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura afroamerykańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_afrykanerska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura afrykanerska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ajnu> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ajnu"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_albanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85003199>,
+        <http:/www.wikidata.org/entity/Q1051868>,
+        <https:/finto.fi/yso/en/page/29225> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura albańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_algierska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh2007005306>,
+        <http:/www.wikidata.org/entity/Q2916074> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura algierska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_altajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ałtajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_amerykanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85004336>,
+        <http:/www.wikidata.org/entity/Q233762> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura amerykańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_amerykansko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura amerykańsko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_angielska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85043777>,
+        <http:/www.wikidata.org/entity/Q186579>,
+        <https:/finto.fi/yso/en/page/11223> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura angielska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_angielsko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura angielsko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_angolska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura angolska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_apokaliptyczna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura apokaliptyczna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_arabska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85006314>,
+        <http:/www.wikidata.org/entity/Q194380>,
+        <https:/finto.fi/yso/en/page/9881> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura arabska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_arabsko-andaluzyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura arabsko-andaluzyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_aramejska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura aramejska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_argentynska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura argentyńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_assamska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura assamska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_australijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura australijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_austriacka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85054389>,
+        <http:/www.wikidata.org/entity/Q303779> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura austriacka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_austriacko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura austriacko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_autotematyczna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura autotematyczna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_awarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura awarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_azerbejdzanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura azerbejdżańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_babilonsko-asyryjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura babilońsko-asyryjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bahrajnska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura bahrajńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bangladeska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura bangladeska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_baskijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura baskijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_baszkirska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura baszkirska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_belgijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura belgijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_belgijsko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura belgijsko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bhutanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura bhutańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bialoruska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85018440>,
+        <http:/www.wikidata.org/entity/Q2350342> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura białoruska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bialorusko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura białorusko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_birmanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura birmańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bizantynska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85018527>,
+        <http:/www.wikidata.org/entity/Q2265137> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura bizantyńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_boliwijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura boliwijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bosniacka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q13081443> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura bośniacka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_boszniacka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura boszniacka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_brazylijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura brazylijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bretonska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura bretońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_buddyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura buddyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bulgarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85017905>,
+        <http:/www.wikidata.org/entity/Q2267821>,
+        <https:/finto.fi/yso/en/page/19622> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura bułgarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_buriacka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura buriacka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_burkinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura burkińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_burundyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura burundyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_buszmenska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura buszmeńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_cejlonska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura cejlońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chakaska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura chakaska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chantyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura chantyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chilijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85023919>,
+        <http:/www.wikidata.org/entity/Q2553003> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura chilijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85024323>,
+        <http:/www.wikidata.org/entity/Q456012>,
+        <https:/finto.fi/yso/en/page/16139> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura chińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chorwacka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q13221620> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura chorwacka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chorwacko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura chorwacko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chrzescijanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85025107>,
+        <http:/www.wikidata.org/entity/Q1084059>,
+        <https:/finto.fi/yso/en/page/26964> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura chrześcijańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_cyganska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura cygańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_cypryjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura cypryjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czagatajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura czagatajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czarnogorska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura czarnogórska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czeczenska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura czeczeńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czerkieska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura czerkieska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czeska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85035275>,
+        <http:/www.wikidata.org/entity/Q282445>,
+        <https:/finto.fi/yso/en/page/17970> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura czeska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czesko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura czesko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czuwaska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura czuwaska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dargijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura dargijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dla_dzieci> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura dla dzieci"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dla_mlodziezy> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85149267>,
+        <http:/www.wikidata.org/entity/Q1233720>,
+        <https:/finto.fi/yso/en/page/5398> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura dla młodzieży"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dominikanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura dominikańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dunganska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura dungańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dunska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85035735>,
+        <http:/www.wikidata.org/entity/Q849175>,
+        <https:/finto.fi/yso/en/page/14368> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura duńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dydaktyczna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q11761895> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura dydaktyczna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dzinijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura dźinijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_egipska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85041353>,
+        <http:/www.wikidata.org/entity/Q3239427> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura egipska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_egipska_nowozytna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura egipska nowożytna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_eksperymentalna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura eksperymentalna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ekwadorska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ekwadorska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_elektroniczna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura elektroniczna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_elitarna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura elitarna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_eskimoska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura eskimoska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_esperancka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura esperancka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_estonska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85044989>,
+        <http:/www.wikidata.org/entity/Q1334834>,
+        <https:/finto.fi/yso/en/page/19388> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura estońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_etiopska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura etiopska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ewenkijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ewenkijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ewenska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura eweńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_faktu,_eseje,_publicystyka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura faktu, eseje, publicystyka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_farerska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q899131> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura farerska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_filipinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura filipińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_finska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85048416>,
+        <http:/www.wikidata.org/entity/Q386853>,
+        <https:/finto.fi/yso/en/page/16810> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura fińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_firmowa> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura firmowa"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_flamandzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura flamandzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_flamandzko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura flamandzko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_francuska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85051865>,
+        <http:/www.wikidata.org/entity/Q6689>,
+        <https:/finto.fi/yso/en/page/17889> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura francuska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_francusko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura francusko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_friulska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura friulska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_fryzyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura fryzyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_fulbe> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura fulbe"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gabonska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura gabońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gagauska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura gagauska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_galicyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura galicyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ghanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ghańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_grecka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura grecka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_grenlandzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura grenlandzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_grozy> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh2008105769>,
+        <http:/www.wikidata.org/entity/Q193606>,
+        <https:/finto.fi/yso/en/page/15087> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura grozy"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gruzinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q3736210> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura gruzińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gujanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura gujańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gwatemalska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura gwatemalska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gwinejska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura gwinejska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_haitanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura haitańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_hausa> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura hausa"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_hebrajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q1057314>,
+        <https:/finto.fi/yso/en/page/26845> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura hebrajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_herero> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura herero"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_hima> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura hima"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_hiszpanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura hiszpańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_hiszpansko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura hiszpańsko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_holenderska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura holenderska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_holendersko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura holendersko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_honduraska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura honduraska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_indonezyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura indonezyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_indyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85065639>,
+        <http:/www.wikidata.org/entity/Q622237> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura indyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_iracka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura iracka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_iranska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura irańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_irlandzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85068106>,
+        <http:/www.wikidata.org/entity/Q683732>,
+        <https:/finto.fi/yso/en/page/29299> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura irlandzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_irlandzko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura irlandzko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_islamska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura islamska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_islandzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85064030>,
+        <http:/www.wikidata.org/entity/Q1414023>,
+        <https:/finto.fi/yso/en/page/21961> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura islandzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_izraelska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura izraelska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jakucka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura jakucka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jamajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura jamajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_japonska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85069668>,
+        <http:/www.wikidata.org/entity/Q231425>,
+        <https:/finto.fi/yso/en/page/8132> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura japońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jemenska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura jemeńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jidysz> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85149148>,
+        <http:/www.wikidata.org/entity/Q1688922>,
+        <https:/finto.fi/yso/en/page/29262> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura jidysz"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jordanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura jordańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jukagirska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura jukagirska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kabardynska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kabardyńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kalmucka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kałmucka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kambodzanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kambodżańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kamerunska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kameruńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kanadyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85019388>,
+        <http:/www.wikidata.org/entity/Q1723523> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kanadyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kannada> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kannada"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_karaczajsko-balkarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura karaczajsko-bałkarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_karaimska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura karaimska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_karakalpacka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura karakałpacka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_karelska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura karelska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kaszubska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q3256770>,
+        <https:/finto.fi/yso/en/page/28203> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kaszubska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_katalonska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q741937>,
+        <https:/finto.fi/yso/en/page/29185> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura katalońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_katarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura katarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_katolicka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura katolicka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kazachska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kazachska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_keczua> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura keczua"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kenijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kenijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kirgiska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kirgiska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kobieca> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kobieca"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kolumbijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kolumbijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_komi> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura komi"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_komi-permiacka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura komi-permiacka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kongijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kongijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_koreanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura koreańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kosowska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kosowska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kostarykanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kostarykańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_krymskotatarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura krymskotatarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kubanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85034621>,
+        <http:/www.wikidata.org/entity/Q3256782> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kubańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kurdyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kurdyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kuwejcka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura kuwejcka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85074966>,
+        <http:/www.wikidata.org/entity/Q184890>,
+        <https:/finto.fi/yso/en/page/7833> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ladino> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ladino"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_lakijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura lakijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_laotanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura laotańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_laponska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q643239>,
+        <https:/finto.fi/yso/en/page/17438> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura lapońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_lemkowska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura łemkowska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_lezginska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura lezgińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_libanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q3256819> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura libańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_liberyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura liberyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_libijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura libijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_litewska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85077648>,
+        <http:/www.wikidata.org/entity/Q1549032>,
+        <https:/finto.fi/yso/en/page/21819> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura litewska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_litewsko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura litewsko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_lotewska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85075014>,
+        <http:/www.wikidata.org/entity/Q923851>,
+        <https:/finto.fi/yso/en/page/21818> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura łotewska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ludow_tureckich> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ludów tureckich"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ludowa> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ludowa"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_luksemburska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura luksemburska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_luzoafrykanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura luzoafrykańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_luzycka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura łużycka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_macedonska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q3110349> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura macedońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malajalam> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura malajalam"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura malajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malawijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura malawijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malezyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura malezyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malgaska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura malgaska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura malijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_maltanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura maltańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_mambwe> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura mambwe"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_mandzurska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura mandżurska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_marathi> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura marathi"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_marokanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura marokańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_maryjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura maryjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_maurytyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura maurytyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_meksykanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85084519>,
+        <http:/www.wikidata.org/entity/Q1050166> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura meksykańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_miedzytestamentalna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q107002391> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura międzytestamentalna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_moldawska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura mołdawska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_mongolska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura mongolska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_mordwinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura mordwińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_mozambicka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura mozambicka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nahua> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nahua"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nanajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nanajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_naxi> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura naxi"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nepalska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nepalska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_new_adult> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura new adult"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_niemiecka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85054380>,
+        <http:/www.wikidata.org/entity/Q181287>,
+        <https:/finto.fi/yso/en/page/12620> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura niemiecka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_niemiecko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura niemiecko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nieniecka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nieniecka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nigerska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nigerska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nigeryjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nigeryjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nikaraguanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nikaraguańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_niwchijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura niwchijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nogajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nogajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_norweska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85092725>,
+        <http:/www.wikidata.org/entity/Q565823>,
+        <https:/finto.fi/yso/en/page/11180> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura norweska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nowozelandzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura nowozelandzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_obozowa> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q11761898> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura obozowa"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_obrachunkow_inteligenckich> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q11761899> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura obrachunków inteligenckich"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_okolicznosciowa> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura okolicznościowa"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_omanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura omańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_orija> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura orija"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ormianska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85007291>,
+        <http:/www.wikidata.org/entity/Q684384>,
+        <https:/finto.fi/yso/en/page/29313> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ormiańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_osetyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura osetyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_pakistanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura pakistańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_palestynska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura palestyńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_panamska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura panamska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_paragwajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q5977098> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura paragwajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_parenetyczna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q11761900> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura parenetyczna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_pastoralna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura pastoralna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_pastoralna_wloska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura pastoralna włoska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_pendzabska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura pendżabska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_perska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura perska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_peruwianska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura peruwiańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_podroznicza> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh91000035>,
+        <http:/www.wikidata.org/entity/Q1072723>,
+        <https:/finto.fi/yso/en/page/5978> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura podróżnicza"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_pogranicza> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura pogranicza"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_polnocnoirlandzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura północnoirlandzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_polska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85104301>,
+        <http:/www.wikidata.org/entity/Q692327> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura polska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_polsko-grecka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura polsko-grecka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_polsko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura polsko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_poludniowoafrykanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura południowoafrykańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_popularna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q11761906> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura popularna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_portorykanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura portorykańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_portugalska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85105349>,
+        <http:/www.wikidata.org/entity/Q548144>,
+        <https:/finto.fi/yso/en/page/14860> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura portugalska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_portugalsko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura portugalsko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_postkolonialna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura postkolonialna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_prawoslawna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura prawosławna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_protestancka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura protestancka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_prowansalska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85107833>,
+        <http:/www.wikidata.org/entity/Q2305675> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura prowansalska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rabiniczna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85070331>,
+        <http:/www.wikidata.org/entity/Q3985225> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura rabiniczna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_radziecka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura radziecka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_retoromanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura retoromańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rosyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85115986>,
+        <http:/www.wikidata.org/entity/Q179161>,
+        <https:/finto.fi/yso/en/page/16335> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura rosyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rosyjsko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura rosyjsko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rumunska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85115040>,
+        <http:/www.wikidata.org/entity/Q2077256>,
+        <https:/finto.fi/yso/en/page/28796> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura rumuńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rusinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura rusińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rwandyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura rwandyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_saksonska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura saksońska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sanskrycka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura sanskrycka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_saudyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura saudyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_senegalska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura senegalska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_serbska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85120187>,
+        <http:/www.wikidata.org/entity/Q2586126>,
+        <https:/finto.fi/yso/en/page/28430> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura serbska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sibe> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura sibe"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sindhi> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura sindhi"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_singapurska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura singapurska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_slowacka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85123478>,
+        <http:/www.wikidata.org/entity/Q3182860>,
+        <https:/finto.fi/yso/en/page/12642> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura słowacka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_slowacko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura słowacko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_slowenska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85123528>,
+        <http:/www.wikidata.org/entity/Q1933509>,
+        <https:/finto.fi/yso/en/page/28723> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura słoweńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sogdyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura sogdyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_somalijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura somalijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sowizdrzalska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q11761910> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura sowizdrzalska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_staro-cerkiewno-slowianska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura staro-cerkiewno-słowiańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_staroangielska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura staroangielska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_starobulgarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura starobułgarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_staropolska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura staropolska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_staroruska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura staroruska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_straganowa> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura straganowa"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_suahili> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura suahili"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sudanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura sudańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sui> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura sui"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sumeryjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura sumeryjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_surinamska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q2676333> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura surinamska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_swiatowa> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura światowa"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_syryjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura syryjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_syryjska_nowozytna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura syryjska nowożytna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_szkocka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura szkocka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_szkocko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura szkocko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_szwajcarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85131278>,
+        <http:/www.wikidata.org/entity/Q690815> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura szwajcarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_szwedzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura szwedzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_szwedzko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura szwedzko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tadzycka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tadżycka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tajlandzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tajlandzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tajwanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tajwańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tamilska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tamilska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tangucka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tangucka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tatarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tatarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tatyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tatyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tobote> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tobote"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tofalarska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tofalarska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_trynidadzka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura trynidadzka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tunezyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tunezyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_turecka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85138891>,
+        <http:/www.wikidata.org/entity/Q1328366>,
+        <https:/finto.fi/yso/en/page/21360> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura turecka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_turkmenska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura turkmeńska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tuwinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tuwińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tybetanska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura tybetańska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_udehejska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura udehejska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_udmurcka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura udmurcka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ugarycka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ugarycka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ujgurska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ujgurska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ukrainska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85139394>,
+        <http:/www.wikidata.org/entity/Q1276062>,
+        <https:/finto.fi/yso/en/page/28815> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura ukraińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_urugwajska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura urugwajska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_uzbecka> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura uzbecka"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_walijska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/www.wikidata.org/entity/Q3204104>,
+        <https:/finto.fi/yso/en/page/29251> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura walijska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wedyjska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura wedyjska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wegierska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85063000>,
+        <http:/www.wikidata.org/entity/Q935268>,
+        <https:/finto.fi/yso/en/page/19592> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura węgierska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wegiersko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura węgiersko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wenezuelska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura wenezuelska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wietnamska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura wietnamska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wiezienna> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura więzienna"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wilamowska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura wilamowska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wloska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85068816>,
+        <http:/www.wikidata.org/entity/Q74217>,
+        <https:/finto.fi/yso/en/page/8252> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura włoska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wlosko-lacinska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura włosko-łacińska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_zaangazowana> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura zaangażowana"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_zairska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura zairska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_zydowska> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh85059881>,
+        <http:/www.wikidata.org/entity/Q2642350>,
+        <https:/finto.fi/yso/en/page/23523> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Literatura żydowska"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Szara_literatura> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:closeMatch <http:/id.loc.gov/authorities/subjects/sh89006158>,
+        <http:/www.wikidata.org/entity/Q1148359>,
+        <https:/finto.fi/yso/en/page/1547> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Szara literatura"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Table-talk-literatura> a skos:Concept ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Literaturoznawstwo> ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Table-talk (literatura)"@pl .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Dywan-literatura> skos:altLabel "Divan"@pl,
+        "Diwan"@pl,
+        "Dywan (poezja)"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Gwinei_Rownikowej> skos:altLabel "Equatoguinean literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_LGBT> skos:altLabel "Gay literature"@pl,
+        "Homoliteratura"@pl,
+        "Literatura LGBTQ"@pl,
+        "Literatura gejowska"@pl,
+        "Literatura gejowska i lesbijska"@pl,
+        "Literatura homoerotyczna"@pl,
+        "Literatura lesbijska"@pl,
+        "Literatura mniejszości seksualnych"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Liechtensteinu> skos:altLabel "Liechtensteinu, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Melanezji> skos:altLabel "Literatura melanezyjska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Oceanii> skos:altLabel "Literatura ludowa Oceanii"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Prusow> skos:altLabel "Old Prussian literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Republiki_Zielonego_Przyladka> skos:altLabel "Literatura Wysp Zielonego Przylądka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Szorow> skos:altLabel "Literatura szorska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Wysp_Swietego_Tomasza_i_Ksiazecej> skos:altLabel "São Tomé and Príncipe, literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_Zjednoczonych_Emiratow_Arabskich> skos:altLabel "Literatura Emiratów"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_abchaska> skos:altLabel "Literatura ludowa abchaska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_adygejska> skos:altLabel "Literatura ludowa adygejska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_afganska> skos:altLabel "Literatura ludowa afgańska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_afrikaans> skos:altLabel "Afrikaans literature"@pl,
+        "Afrikaanse letterkunde"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_afroamerykanska> skos:altLabel "Afroamerikanische Literatur"@de,
+        "African American literature"@en,
+        "littérature afro-américaine"@fr,
+        "African-American literature"@pl,
+        "афроамериканська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ajnu> skos:altLabel "Literatura ludowa ajnu"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_albanska> skos:altLabel "Albanische Literatur"@de,
+        "Albanian literature"@en,
+        "littérature albanaise"@fr,
+        "албанська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_algierska> skos:altLabel "Algerian literature"@en,
+        "Littérature algérienne"@fr ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_altajska> skos:altLabel "Literatura ludowa ałtajska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_amerykanska> skos:altLabel "amerikanische Literatur"@de,
+        "American literature"@en,
+        "littérature américaine"@fr,
+        "Literatura Stanów Zjednoczonych"@pl,
+        "Література США"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_angielska> skos:altLabel "englischsprachige Literatur"@de,
+        "English literature"@en,
+        "littérature anglaise"@fr,
+        "Англійська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_angolska> skos:altLabel "Literatura angolijska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_apokaliptyczna> skos:altLabel "Apokaliptyka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_arabska> skos:altLabel "arabische Literatur"@de,
+        "Arabic literature"@en,
+        "littérature de langue arabe"@fr,
+        "Literatura ludowa arabska"@pl,
+        "Арабська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_arabsko-andaluzyjska> skos:altLabel "Literatura arabsko-hiszpańska"@pl,
+        "Literatura hispanoarabska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_aramejska> skos:altLabel "Aramaic literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_assamska> skos:altLabel "Assamska, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_austriacka> skos:altLabel "österreichische Literatur"@de,
+        "Austrian literature"@en,
+        "littérature autrichienne"@fr,
+        "Австрійська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_austriacko-lacinska> skos:altLabel "Literatura łacińsko-austriacka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_autotematyczna> skos:altLabel "Autotematyzm (literaturoznawstwo)"@pl,
+        "Metafikcja"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_azerbejdzanska> skos:altLabel "Literatura azerska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_babilonsko-asyryjska> skos:altLabel "Literatura asyryjsko-babilońska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_baszkirska> skos:altLabel "Literatura ludowa baszkirska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_belgijska> skos:altLabel "Literatura walońska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bialoruska> skos:altLabel "belarussische Literatur"@de,
+        "Belarusian literature"@en,
+        "littérature biélorusse"@fr,
+        "Білоруська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bizantynska> skos:altLabel "Byzantinische Literatur"@de,
+        "Byzantine literature"@en,
+        "littérature byzantine"@fr,
+        "візантійська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bosniacka> skos:altLabel "Literature of Bosnia and Herzegovina"@en,
+        "Literatura Bośni i Hercegowiny"@pl,
+        "Література Боснії і Герцеговини"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_boszniacka> skos:altLabel "Bosniak literature"@pl,
+        "Literatura Muzułmanów bośniackich"@pl,
+        "Literatura bośniacko-muzułmańska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_buddyjska> skos:altLabel "Buddhist literature"@pl,
+        "Buddyjska literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_bulgarska> skos:altLabel "Bulgarische Literatur"@de,
+        "Bulgarian literature"@en,
+        "littérature bulgare"@fr,
+        "Болгарська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_buriacka> skos:altLabel "Literatura ludowa buriacka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_burkinska> skos:altLabel "Burkinabé literature"@pl,
+        "Literatura Burkina Faso"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_burundyjska> skos:altLabel "Literatura Burundi"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_buszmenska> skos:altLabel "Bushman literature"@pl,
+        "Literatura ludów San"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_cejlonska> skos:altLabel "Literatura Sri Lanki"@pl,
+        "Literatura syngaleska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chakaska> skos:altLabel "Literatura ludowa chakaska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chantyjska> skos:altLabel "Literatura ludowa chantyjska"@pl,
+        "Literatura ostiacka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chilijska> skos:altLabel "Chilenische Literatur"@de,
+        "Chilean literature"@en,
+        "littérature chilienne"@fr ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chinska> skos:altLabel "Chinesische Literatur"@de,
+        "Chinese literature"@en,
+        "littérature chinoise"@fr,
+        "Китайська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chorwacka> skos:altLabel "Kroatische Literatur"@de,
+        "Croatian literature"@en,
+        "littérature croate"@fr,
+        "Хорватська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_chrzescijanska> skos:altLabel "Christliche Literatur"@de,
+        "Christian literature"@en,
+        "littérature chrétienne"@fr ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_cyganska> skos:altLabel "Literatura ludowa cygańska"@pl,
+        "Literatura romska"@pl,
+        "Literatura sinti"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czeczenska> skos:altLabel "Literatura czeczeńsko-inguska"@pl,
+        "Literatura inguska"@pl,
+        "Literatura ludowa czeczeńska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czerkieska> skos:altLabel "Literatura ludowa czerkieska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czeska> skos:altLabel "tschechische Literatur"@de,
+        "Czech literature"@en,
+        "littérature tchèque"@fr,
+        "Чеська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_czuwaska> skos:altLabel "Literatura ludowa czuwaska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dla_dzieci> skos:altLabel "Bajka i baśń dla dzieci"@pl,
+        "Literatura dziecięca"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dla_mlodziezy> skos:altLabel "Jugendliteratur"@de,
+        "young adult literature"@en,
+        "littérature pour jeunes adultes"@fr,
+        "Literatura młodzieżowa"@pl,
+        "підліткова література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dunganska> skos:altLabel "Literatura ludowa dungańska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dunska> skos:altLabel "Dänische Literatur"@de,
+        "Danish literature"@en,
+        "littérature danoise"@fr,
+        "Данська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_dydaktyczna> skos:altLabel "Didactic literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_egipska> skos:altLabel "Egyptian literature"@en,
+        "Littérature égyptienne"@fr,
+        "Literatura egipska starożytna"@pl,
+        "Єгипетська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_eksperymentalna> skos:altLabel "Eksperyment literacki"@pl,
+        "Experimental literature"@pl,
+        "Experimentelle Literatur"@pl,
+        "Literacki eksperyment"@pl,
+        "Littérature expérimentale"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_elektroniczna> skos:altLabel "E-literatura"@pl,
+        "Electronic literature"@pl,
+        "Hypertext literature"@pl,
+        "Literatura HTML"@pl,
+        "Literatura cyfrowa"@pl,
+        "Literatura hipertekstowa"@pl,
+        "Literatura internetowa"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_eskimoska> skos:altLabel "Literatura ludowa eskimoska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_estonska> skos:altLabel "estnische Literatur"@de,
+        "Estonian literature"@en,
+        "littérature estonienne"@fr,
+        "Естонська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_etiopska> skos:altLabel "Literatura abisyńska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ewenkijska> skos:altLabel "Literatura ludowa ewenkijska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ewenska> skos:altLabel "Literatura ludowa eweńska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_faktu,_eseje,_publicystyka> skos:altLabel "Literatura faktu, eseje i publicystyka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_farerska> skos:altLabel "Färöische Literatur"@de,
+        "Faroese literature"@en,
+        "Фарерська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_finska> skos:altLabel "Finnische Literatur"@de,
+        "Finnish literature"@en,
+        "littérature finlandaise"@fr,
+        "фінська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_firmowa> skos:altLabel "Literatura techniczno-handlowa"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_flamandzka> skos:altLabel "Literatura niderlandzka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_francuska> skos:altLabel "französische Literatur"@de,
+        "French literature"@en,
+        "littérature française"@fr,
+        "Французька література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_friulska> skos:altLabel "Literatura friulańska"@pl,
+        "Literatura furlańska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gabonska> skos:altLabel "Gabońska, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gagauska> skos:altLabel "Gagauz literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_galicyjska> skos:altLabel "Literatura galisyjska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_grecka> skos:altLabel "Literatura grecka nowożytna"@pl,
+        "Literatura grecka starożytna"@pl,
+        "Literatura nowogrecka"@pl,
+        "Literatura starogrecka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_grenlandzka> skos:altLabel "Greenlandic literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_grozy> skos:altLabel "Horrorliteratur"@de,
+        "horror literature"@en,
+        "littérature d'horreur"@fr,
+        "література жахів"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_gruzinska> skos:altLabel "Georgische Literatur"@de,
+        "Georgian literature"@en,
+        "Littérature géorgienne"@fr,
+        "Грузинська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_hebrajska> skos:altLabel "hebräische Literatur"@de,
+        "Hebrew literature"@en,
+        "Literatura ludowa hebrajska"@pl,
+        "література івритом"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_hima> skos:altLabel "Literatura bahima"@pl,
+        "Literatura ludowa hima"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_holenderska> skos:altLabel "Literatura niderlandzka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_indyjska> skos:altLabel "indische Literatur"@de,
+        "Indian literature"@en,
+        "littérature indienne"@fr,
+        "Literatura bengalska"@pl,
+        "Literatura hinduska"@pl,
+        "Literatury indyjskie"@pl,
+        "Література Індії"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_iranska> skos:altLabel "Iranian literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_irlandzka> skos:altLabel "Irische Literatur"@de,
+        "Irish literature"@en,
+        "littérature irlandaise"@fr,
+        "Ірландська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_islamska> skos:altLabel "Islamic literature"@pl,
+        "Literatura muzułmańska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_islandzka> skos:altLabel "Isländische Literatur"@de,
+        "Icelandic literature"@en,
+        "littérature islandaise"@fr,
+        "Ісландська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jakucka> skos:altLabel "Literatura ludowa jakucka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_japonska> skos:altLabel "japanische Literatur"@de,
+        "Japanese literature"@en,
+        "littérature japonaise"@fr,
+        "Japońska literatura"@pl,
+        "Література Японії"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jidysz> skos:altLabel "Jiddische Literatur"@de,
+        "Yiddish literature"@en,
+        "littérature yiddish"@fr,
+        "Література мовою їдиш"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_jukagirska> skos:altLabel "Literatura ludowa jukagirska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kabardynska> skos:altLabel "Literatura kabardyjska"@pl,
+        "Literatura ludowa kabardyńska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kalmucka> skos:altLabel "Literatura ludowa kałmucka"@pl,
+        "Literatura ojracka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kanadyjska> skos:altLabel "Kanadische Literatur"@de,
+        "Canadian literature"@en,
+        "littérature canadienne"@fr,
+        "Канадська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kannada> skos:altLabel "Kannada literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_karaczajsko-balkarska> skos:altLabel "Literatura bałkarska"@pl,
+        "Literatura karaczajska"@pl,
+        "Literatura ludowa karaczajsko-bałkarska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_karakalpacka> skos:altLabel "Literatura ludowa karakałpacka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_karelska> skos:altLabel "Literatura ludowa karelska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kaszubska> skos:altLabel "Kaschubische Literatur"@de,
+        "Kashubian literature"@en,
+        "Littérature cachoube"@fr ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_katalonska> skos:altLabel "Katalanische Literatur"@de,
+        "Catalan literature"@en,
+        "littérature catalane"@fr,
+        "Каталонська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_katarska> skos:altLabel "Qatari literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kazachska> skos:altLabel "Literatura ludowa kazachska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_keczua> skos:altLabel "Literatura Inków"@pl,
+        "Literatura inkaska"@pl,
+        "Literatura quechua"@pl,
+        "Quechua literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kirgiska> skos:altLabel "Literatura ludowa kirgiska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kobieca> skos:altLabel "Literatura kobiet"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_komi> skos:altLabel "Literatura ludowa komi"@pl,
+        "Literatura zyriańska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kosowska> skos:altLabel "Kosovan literature"@pl,
+        "Literatura Kosowa"@pl,
+        "Literatura kosowarska"@pl,
+        "Literature of Kosovo"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kubanska> skos:altLabel "Kubanische Literatur"@de,
+        "Cuban literature"@en,
+        "Littérature cubaine"@fr ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_kurdyjska> skos:altLabel "Literatura ludowa kurdyjska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_lacinska> skos:altLabel "Lateinische Literatur"@de,
+        "Latin-language literature"@en,
+        "littérature latine"@fr,
+        "Literatura rzymska"@pl,
+        "Латинська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ladino> skos:altLabel "Literatura judezmo"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_laponska> skos:altLabel "Samische literatur"@de,
+        "Sami literature"@en,
+        "Literatura ludowa lapońska"@pl,
+        "Literatura saamska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_lemkowska> skos:altLabel "Literatura rusińska w Polsce"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_libanska> skos:altLabel "Lebanese literature"@en,
+        "Littérature libanaise"@fr ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_litewska> skos:altLabel "Litauische Literatur"@de,
+        "Lithuanian literature"@en,
+        "littérature lituanienne"@fr,
+        "Литовська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_lotewska> skos:altLabel "Lettische Literatur"@de,
+        "Latvian literature"@en,
+        "littérature lettone"@fr,
+        "Латиська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ludow_tureckich> skos:altLabel "Literatury tureckie"@pl,
+        "Literatury turkijskie"@pl,
+        "Turkic literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ludowa> skos:altLabel "Folk literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_luzoafrykanska> skos:altLabel "Literatury afrykańskie w języku portugalskim"@pl,
+        "Literatury luzoafrykańskie"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_luzycka> skos:altLabel "Literatura dolnołużycka"@pl,
+        "Literatura górnołużycka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_macedonska> skos:altLabel "Macedonian literature"@en,
+        "littérature macédonienne"@fr,
+        "література Північної Македонії"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malajalam> skos:altLabel "Literatura keralska"@pl,
+        "Literatura w języku malajalam"@pl,
+        "Malajalam, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malajska> skos:altLabel "Literatura ludowa malajska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malawijska> skos:altLabel "Malawi literature"@pl,
+        "Malawian literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_malgaska> skos:altLabel "Literatura madagaskarska"@pl,
+        "Malagasy literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_marathi> skos:altLabel "Marathi literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_maryjska> skos:altLabel "Literatura ludowa maryjska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_maurytyjska> skos:altLabel "Littérature mauricienne"@pl,
+        "Mauritian literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_meksykanska> skos:altLabel "Mexikanische Literatur"@de,
+        "Mexican literature"@en,
+        "littérature mexicaine"@fr ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_miedzytestamentalna> skos:altLabel "Intertestamental literature"@en ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_mordwinska> skos:altLabel "Literatura ludowa mordwińska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nahua> skos:altLabel "Literatura aztecka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nanajska> skos:altLabel "Literatura ludowa nanajska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_new_adult> skos:altLabel "Literatura dla młodych dorosłych"@pl,
+        "NA fiction"@pl,
+        "New adult"@pl,
+        "New adult fiction"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_niemiecka> skos:altLabel "deutschsprachige Literatur"@de,
+        "German-language literature"@en,
+        "littérature de langue allemande"@fr,
+        "Німецька література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nieniecka> skos:altLabel "Literatura juracka"@pl,
+        "Literatura ludowa nieniecka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_nogajska> skos:altLabel "Literatura ludowa nogajska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_norweska> skos:altLabel "Norwegische Literatur"@de,
+        "Norwegian literature"@en,
+        "littérature norvégienne"@fr,
+        "норвезька література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_obozowa> skos:altLabel "Literatura lagrowa"@pl,
+        "Literatura łagrowa"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_obrachunkow_inteligenckich> skos:altLabel "Literatura obrachunkowa"@pl,
+        "Literatura rozrachunkowa"@pl,
+        "Literatura rozrachunków inteligenckich"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_orija> skos:altLabel "Literatura odri"@pl,
+        "Literatura utkali"@pl,
+        "Orija, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ormianska> skos:altLabel "Armenische Literatur"@de,
+        "Armenian literature"@en,
+        "littérature arménienne"@fr,
+        "Literatura armeńska"@pl,
+        "Вірменська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_osetyjska> skos:altLabel "Literatura ludowa osetyjska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_pakistanska> skos:altLabel "Literatura urdu"@pl,
+        "Pakistańska. literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_paragwajska> skos:altLabel "Paraguayische Literatur"@de,
+        "literature of Paraguay"@en,
+        "Littérature paraguayenne"@fr ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_parenetyczna> skos:altLabel "Parenetyka"@pl,
+        "Pareneza"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_pendzabska> skos:altLabel "Pendżabska, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_perska> skos:altLabel "Literatura tadżycka"@pl,
+        "do 15 w."@pl,
+        "historia"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_podroznicza> skos:altLabel "Reiseliteratur"@de,
+        "travel literature"@en,
+        "littérature de voyage"@fr,
+        "Diariusze podróży"@pl,
+        "Dzienniki podróży"@pl,
+        "Listy z podróży"@pl,
+        "Pamiętniki podróży"@pl,
+        "Piśmiennictwo podróżnicze"@pl,
+        "Тревелог"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_pogranicza> skos:altLabel "Literatury pogranicza"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_polnocnoirlandzka> skos:altLabel "Literature of Northern Ireland"@pl,
+        "Northern Irish literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_polska> skos:altLabel "polnische Literatur"@de,
+        "Polish literature"@en,
+        "littérature polonaise"@fr,
+        "Польська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_popularna> skos:altLabel "Literatura pop"@pl,
+        "Popliteratura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_portugalska> skos:altLabel "portugiesische Literatur"@de,
+        "Portuguese literature"@en,
+        "littérature lusophone"@fr,
+        "Португальська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_portugalsko-lacinska> skos:altLabel "Literatura łacińsko-portugalska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_postkolonialna> skos:altLabel "Literatura postkolonializmu"@pl,
+        "Littérature postcoloniale"@pl,
+        "Postcolonial literature"@pl,
+        "Postkolonialna, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_prowansalska> skos:altLabel "Okzitanische Literatur"@de,
+        "Occitan literature"@en,
+        "littérature occitane"@fr,
+        "Провансальська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rabiniczna> skos:altLabel "rabbinic literature"@en,
+        "littérature religieuse juive"@fr,
+        "Pisma rabiniczne"@pl,
+        "раввинська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_radziecka> skos:altLabel "Literatury ZSRR"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_retoromanska> skos:altLabel "Raeto-Romance literature"@pl,
+        "Rhaeto-Romance literature"@pl,
+        "Romansh literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rosyjska> skos:altLabel "russische Literatur"@de,
+        "Russian literature"@en,
+        "littérature russe"@fr,
+        "російська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rosyjsko-lacinska> skos:altLabel "Literatura łacińsko-rosyjska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rumunska> skos:altLabel "rumänische Literatur"@de,
+        "Romanian literature"@en,
+        "littérature roumaine"@fr,
+        "Румунська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rusinska> skos:altLabel "Literatury rusińskie"@pl,
+        "Rusyn literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_rwandyjska> skos:altLabel "Literatura ruandyjska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_saksonska> skos:altLabel "Literatura starosaksońska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_serbska> skos:altLabel "Serbian literature"@en,
+        "littérature serbe"@fr,
+        "Сербська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sibe> skos:altLabel "Literatura sibińska"@pl,
+        "Literatura sibo"@pl,
+        "Literatura xibe"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_singapurska> skos:altLabel "Singapurska, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_slowacka> skos:altLabel "slowakische Literatur"@de,
+        "Slovak literature"@en,
+        "littérature slovaque"@fr,
+        "Словацька література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_slowenska> skos:altLabel "slowenische Literatur"@de,
+        "Slovene literature"@en,
+        "littérature slovène"@fr,
+        "Словенська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_staroangielska> skos:altLabel "Old English literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_starobulgarska> skos:altLabel "Literatura staro-bułgarska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_staroruska> skos:altLabel "Literatura ludowa staroruska"@pl,
+        "Literatura ruska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_straganowa> skos:altLabel "Literatura brukowa"@pl,
+        "Literatura jarmarczna"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_sui> skos:altLabel "Sui literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_surinamska> skos:altLabel "Surinamese literature"@en ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_swiatowa> skos:altLabel "Weltliteratur"@pl,
+        "World literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_syryjska> skos:altLabel "Literatura syryjska starożytna"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_szkocko-lacinska> skos:altLabel "Literatura łacińsko-szkocka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_szwajcarska> skos:altLabel "Schweizer Literatur"@de,
+        "Swiss literature"@en,
+        "littérature suisse"@fr,
+        "Швейцарська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_szwedzko-lacinska> skos:altLabel "Literatura łacińsko-szwedzka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tajlandzka> skos:altLabel "Literatura syjamska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tajwanska> skos:altLabel "Taiwanese literature"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tofalarska> skos:altLabel "Literatura karagaska"@pl,
+        "Literatura ludowa tofalarska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_trynidadzka> skos:altLabel "Literatura Trynidadu i Tobago"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_turecka> skos:altLabel "türkische Literatur"@de,
+        "Turkish literature"@en,
+        "littérature turque"@fr,
+        "Турецька література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_tuwinska> skos:altLabel "Literatura ludowa tuwińska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_udehejska> skos:altLabel "Literatura ludowa udehejska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_udmurcka> skos:altLabel "Literatura ludowa udmurcka"@pl,
+        "Literatura wotiacka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ugarycka> skos:altLabel "Literatura Ugarit"@pl,
+        "Ugarycka, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ujgurska> skos:altLabel "Literatura ludowa ujgurska"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_ukrainska> skos:altLabel "ukrainische Literatur"@de,
+        "Ukrainian literature"@en,
+        "littérature ukrainienne"@fr,
+        "українська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_walijska> skos:altLabel "Welsh-language literature"@en,
+        "littérature celtique galloise"@fr,
+        "Welsh literature"@pl,
+        "Валлійська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wedyjska> skos:altLabel "Wedyjska, literatura"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wegierska> skos:altLabel "Ungarische Literatur"@de,
+        "Hungarian literature"@en,
+        "littérature hongroise"@fr,
+        "Угорська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wilamowska> skos:altLabel "Literatura wilamowicka"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_wloska> skos:altLabel "Italienische Literatur"@de,
+        "Italian literature"@en,
+        "littérature italienne"@fr,
+        "Італійська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_zaangazowana> skos:altLabel "Engagierte Literatur"@pl,
+        "Literatura politycznie zaangażowana"@pl,
+        "Literatura społecznie zaangażowana"@pl,
+        "Littérature engagée"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Literatura_zydowska> skos:altLabel "jüdische Literatur"@de,
+        "Jewish literature"@en,
+        "littérature juive"@fr,
+        "єврейська література"@uk ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Szara_literatura> skos:altLabel "graue Literatur"@de,
+        "grey literature"@en,
+        "littérature grise"@fr,
+        "Literatura niekonwencjonalna"@pl,
+        "Literatura szara"@pl,
+        "Szare dokumenty"@pl,
+        "Wydawnictwa niekomercyjne"@pl,
+        "Wydawnictwa o ograniczonej dystrybucji"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Table-talk-literatura> skos:altLabel "Ana (literatura)"@pl,
+        "Anas (literatura)"@pl,
+        "Rozmowy przy stole (literatura)"@pl ;
+    skos:broader <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> a skos:Concept ;
+    rdfs:label "Deskryptory literackie BN w SKOS"@pl ;
+    skos:altLabel "BN_LIT_SKOS"@en ;
+    skos:inScheme <https:/bn-lit-skos.lab.dariah.pl/scheme/> ;
+    skos:prefLabel "Deskryptory literackie BN w SKOS"@pl ;
+    skos:topConceptOf <https:/bn-lit-skos.lab.dariah.pl/scheme/> .
+
+<https:/bn-lit-skos.lab.dariah.pl/scheme/> a skos:ConceptScheme ;
+    rdfs:label "Deskryptory literackie BN w SKOS",
+        "Deskryptory literackie BN w SKOS"@en ;
+    skos:topConceptOf <https:/bn-lit-skos.lab.dariah.pl/scheme/Deskryptory_literackie_BN_w_SKOS> .
+
