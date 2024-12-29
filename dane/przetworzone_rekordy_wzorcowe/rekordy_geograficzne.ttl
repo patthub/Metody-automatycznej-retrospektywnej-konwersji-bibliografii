@@ -1,0 +1,137 @@
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix gn: <http://sws.geonames.org/> .
+
+
+<https://retropbl.ibl.waw.pl/warsaw> a schema:City ;
+    schema:name "Warszawa"@pl ;
+    schema:alternateName "wwa"@pl ;
+    schema:alternateName "waw"@en ;
+    schema:alternateName "wwaw"@pl ;
+    geo:longitude 21.0122 ;
+    geo:latitude 52.2297 ;
+    schema:identifier gn:756135 ;
+    schema:identifier wd:Q270 .
+
+<https://retropbl.ibl.waw.pl/krakow> a schema:City ;
+    schema:name "Kraków"@pl ;
+    schema:alternateName "krk"@pl ;
+    schema:alternateName "krak"@en ;
+    geo:longitude 19.9449 ;
+    geo:latitude 50.0647 ;
+    schema:identifier gn:3094802 ;
+    schema:identifier wd:Q619 .
+
+<https://retropbl.ibl.waw.pl/lodz> a schema:City ;
+    schema:name "Łódź"@pl ;
+    schema:alternateName "ldz"@pl ;
+    schema:alternateName "lodz"@en ;
+    geo:longitude 19.45598 ;
+    geo:latitude 51.75925 ;
+    schema:identifier gn:3093133 ;
+    schema:identifier wd:Q453 .
+
+<https://retropbl.ibl.waw.pl/wroclaw> a schema:City ;
+    schema:name "Wrocław"@pl ;
+    schema:alternateName "wro"@pl ;
+    schema:alternateName "wroc"@de ;
+    schema:alternateName "wrocl"@pl ;
+    schema:alternateName "wrocł"@pl ;
+    geo:longitude 17.0385 ;
+    geo:latitude 51.1079 ;
+    schema:identifier gn:3081368 ;
+    schema:identifier wd:Q27072 .
+
+<https://retropbl.ibl.waw.pl/poznan> a schema:City ;
+    schema:name "Poznań"@pl ;
+    schema:alternateName "poz"@pl ;
+    schema:alternateName "pos"@de ;
+    schema:alternateName "pozn"@pl ;
+    schema:alternateName "poznań"@pl ;
+    geo:longitude 16.9252 ;
+    geo:latitude 52.4064 ;
+    schema:identifier gn:3088171 ;
+    schema:identifier wd:Q26839 .
+
+<https://retropbl.ibl.waw.pl/gdansk> a schema:City ;
+    schema:name "Gdańsk"@pl ;
+    schema:alternateName "gdn"@pl ;
+    schema:alternateName "gda"@de ;
+    geo:longitude 18.6466 ;
+    geo:latitude 54.352 ;
+    schema:identifier gn:3099434 ;
+    schema:identifier wd:Q245 .
+
+<https://retropbl.ibl.waw.pl/szczecin> a schema:City ;
+    schema:name "Szczecin"@pl ;
+    schema:alternateName "szc"@pl ;
+    schema:alternateName "szcze"@de ;
+    schema:alternateName "szczec"@pl ;
+    geo:longitude 14.5528 ;
+    geo:latitude 53.4285 ;
+    schema:identifier gn:3083829 ;
+    schema:identifier wd:Q19646 .
+
+<https://retropbl.ibl.waw.pl/bydgoszcz> a schema:City ;
+    schema:name "Bydgoszcz"@pl ;
+    schema:alternateName "byd"@pl ;
+    schema:alternateName "bydg"@de ;
+    geo:longitude 18.0109 ;
+    geo:latitude 53.1235 ;
+    schema:identifier gn:3102014 ;
+    schema:identifier wd:Q601 .
+
+<https://retropbl.ibl.waw.pl/lublin> a schema:City ;
+    schema:name "Lublin"@pl ;
+    schema:alternateName "lu"@pl ;
+    schema:alternateName "lubl"@pl ;
+    geo:longitude 22.566 ;
+    geo:latitude 51.25 ;
+    schema:identifier gn:766882 ;
+    schema:identifier wd:Q35962 .
+
+<https://retropbl.ibl.waw.pl/katowice> a schema:City ;
+    schema:name "Katowice"@pl ;
+    schema:alternateName "ktw"@pl ;
+    schema:alternateName "katow"@pl ;
+    geo:longitude 19.0275 ;
+    geo:latitude 50.2584 ;
+    schema:identifier gn:3096472 ;
+    schema:identifier wd:Q36748 .
+
+
+<https://retropbl.ibl.waw.pl/gdynia> a schema:City ;
+    schema:name "Gdynia"@pl ;
+    schema:alternateName "gdy"@pl ;
+    schema:alternateName "gdyn"@pl ;
+    geo:longitude 18.53 ;
+    geo:latitude 54.52 ;
+    schema:identifier gn:3099424 ;
+    schema:identifier wd:Q34296 .
+
+
+<https://retropbl.ibl.waw.pl/radom> a schema:City ;
+    schema:name "Radom"@pl ;
+    schema:alternateName "rad"@pl ;
+    geo:longitude 21.16 ;
+    geo:latitude 51.40 ;
+    schema:identifier gn:759734 ;
+    schema:identifier wd:Q39770 .
+
+<https://retropbl.ibl.waw.pl/torun> a schema:City ;
+    schema:name "Toruń"@pl ;
+    schema:alternateName "tor"@pl ;
+    geo:longitude 18.61 ;
+    geo:latitude 53.01 ;
+    schema:identifier gn:3083271 ;
+    schema:identifier wd:Q623 .
+
+<https://retropbl.ibl.waw.pl/kielce> a schema:City ;
+    schema:name "Kielce"@pl ;
+    schema:alternateName "kie"@pl ;
+    schema:alternateName "kiel"@pl ;
+    geo:longitude 20.63 ;
+    geo:latitude 50.87 ;
+    schema:identifier gn:3096471 ;
+    schema:identifier wd:Q57194 .
